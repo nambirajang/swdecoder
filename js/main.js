@@ -14,7 +14,7 @@ function HandleOnClick(obj) {
                 break;
             
             case "EDButton":
-                vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.360p.vp9.webm";
+                vidsource.src = "sample.webm";
                 vidsource.type = "video/webm_s"
                 break;
                 
