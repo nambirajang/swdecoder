@@ -3,7 +3,7 @@ function HandleOnClick(obj) {
     var chatpan = document.getElementById("chatpan1");
     var vidsource= document.getElementById("videosource");
                     
-    if( (obj.id == "BBBButton") || /*(obj.id == "EDButton") ||*/ (obj.id == "GDButton") ) {
+    if( (obj.id == "BBBButton") || (obj.id == "GDButton") ) {
         console.log("Handle URL!!");
         vid_elm.pause();
         switch(obj.id)
@@ -12,12 +12,6 @@ function HandleOnClick(obj) {
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Big_Buck_Bunny_alt.webm/Big_Buck_Bunny_alt.webm.360p.vp9.webm";
                 vidsource.type = "video/webm_s"
                 break;
-            
-/*            case "EDButton":
-                vidsource.src = "sample.webm";
-                vidsource.type = "video/webm_s"
-                break;*/
-                
             case "GDButton":
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
                 vidsource.type = "video/webm_s"
